@@ -1,2 +1,0 @@
-- name: Deploy Sneha GitHub Pages site
-  uses: actions/deploy-pages@v1.2.4
