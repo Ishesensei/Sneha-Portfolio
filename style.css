@@ -235,3 +235,9 @@ hr {
     border-top-color: #f513ea;
     background: #f513ea;
 }
+
+.footer-link {
+    color: #11999E;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(59, 0, 254);
+}
