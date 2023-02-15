@@ -44,10 +44,10 @@ p {
 
 hr {
     margin: 5rem auto;
-    border-color: #d0e4e4;
+    border-color: #c9b2b2;
     border-style: dotted;
-    border-width: .40rem 0px 0px 0px;
-    width: 40px;
+    border-width: .8rem 0px 0px 0px;
+    width: 70px;
 }
 
 /**************************class-selectors*************************/
@@ -238,6 +238,8 @@ hr {
 
 .footer-link {
     color: #11999E;
-    text-decoration-style: dotted;
-    text-decoration-color: rgb(59, 0, 254);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  
 }
