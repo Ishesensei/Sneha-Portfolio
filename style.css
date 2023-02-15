@@ -4,21 +4,20 @@ body {
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 1.05rem;
+    font-size: .96rem;
 }
 
 h1 {
     color: ;
     #66bfbf padding: 0px auto auto;
     font-family: 'Sacramento', cursive;
-    font-size: 4.875rem;
+    font-size: 3.875rem;
 }
 
 h1.hero-title {
     color: #66bfbf;
-    padding: 0px auto auto;
     font-family: 'Sacramento', cursive;
-    margin: 1rem auto 0px;
+    margin: 4rem auto 0px;
 }
 
 h2 {
@@ -77,6 +76,7 @@ hr {
 }
 
 .top-cloud {
+    rotate: -6deg;
     position: absolute;
     min-width: 7rem;
     width: 26vw;
@@ -88,6 +88,7 @@ hr {
 }
 
 .bottom-cloud {
+    rotate: 8deg;
     transform: rotateY(180deg);
     z-index: -4;
     position: absolute;
@@ -95,8 +96,8 @@ hr {
     width: 30vw;
     max-width: 30rem;
     opacity: 30%;
-
-    left: 5%;
+    top: 250px; 
+    left: 3%;
 }
 
 .mountain {
