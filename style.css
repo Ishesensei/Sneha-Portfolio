@@ -4,38 +4,38 @@ body {
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 1.3rem;
+    font-size: 1.05rem;
 }
 
 h1 {
-    color: ;black
-    padding: 0px auto auto;
+    color: ;
+    #66bfbf padding: 0px auto auto;
     font-family: 'Sacramento', cursive;
-    font-size: 5.875rem;
+    font-size: 4.875rem;
 }
 
 h1.hero-title {
-    color: black;
+    color: #66bfbf;
     padding: 0px auto auto;
     font-family: 'Sacramento', cursive;
-    margin:1rem auto 0px;
+    margin: 1rem auto 0px;
 }
 
 h2 {
-    color: black;
+    color: #66bfbf;
     padding: 0px auto auto;
     font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
-    color: black;
+    color: #66bfbf;
     padding: 0px auto auto;
     font-family: 'Montserrat', sans-serif;
 }
 
 p {
-    color: black;
-    padding: 0px 10px;
+    color: #66bfbf;
+    padding: 0px 0px;
     margin: auto;
     max-width: fit-content;
     width: 800px;
@@ -50,9 +50,7 @@ hr {
 }
 
 /**************************class-selectors*************************/
-.creating-graphics {
-    margin-top: 0px;
-}
+
 
 .top-container {
     margin: 0px auto auto;
@@ -63,9 +61,7 @@ hr {
 }
 
 
-.middle-container {
-    
-}
+.middle-container {}
 
 .bottom-container {
     background-color:
@@ -86,7 +82,7 @@ hr {
     width: 26vw;
     max-width: 18rem;
     opacity: 40%;
-    top:10px;
+    top: 0px;
     right: 4%;
 
 }
@@ -107,24 +103,15 @@ hr {
     width: 60vw;
 }
 
-.gif-skill{
-    width: 240px;
-}
-
-.gif-skill2 {
-    width: 240px;
-}
 
 .img-profile {
     overflow: hidden;
     width: 150px;
 }
 
-.skills {
-}
+.skills {}
 
-.contact-me {
-}
+.contact-me {}
 
 .btn {
     padding-top: 0.96rem;
@@ -140,8 +127,57 @@ hr {
     background-color: rgb(71, 71, 71);
     color: #dcfbdf;
     padding: 1rem;
-   
+
 }
-.space1  {
-height: 1rem;
+
+.space1 {
+    height: 1rem;
+}
+
+
+.skill-row {
+    margin: 100px auto 100px;
+    ;
+    display: block;
+    width: 70vw;
+    text-align: left;
+}
+
+.gif-skill-items {
+    width: inherit;
+}
+
+.gif-skill {
+    display: block;
+    margin: 0px auto 0px;
+    text-align: left;
+    width: 20vw;
+    float: left;
+    margin: 0px .7rem .7rem 0px;
+}
+
+.gif-skill2 {
+    display: block;
+    margin: 0px auto 0px;
+    text-align: left;
+    width: 20vw;
+    float: right;
+    margin: 0px .7rem .7rem 0px;
+}
+
+.All-day-coding-h3,
+.creating-graphics-h3 {
+    color: rgb(53, 198, 177);
+    margin-top: 0px;
+}
+
+.pp { color: black;
+    line-height: 2rem;
+    border: 2px;
+
+}
+
+
+.creating-graphics {
+    margin-top: 0px;
 }
