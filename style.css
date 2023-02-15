@@ -1,6 +1,6 @@
 /**************************tag-selectors*************************/
 body {
-    background-color: #fffefe;
+    background-color: #ffe9e9;
     margin: 0px;
     padding: 0px;
     text-align: center;
@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-    color: #66bfbf;
+    color: #11999E;
     padding: 0px auto auto;
     font-family: 'Montserrat', sans-serif;
 }
@@ -54,8 +54,8 @@ hr {
 
 
 .top-container {
-    background: rgb(0, 212, 167);
-    background: linear-gradient(0deg, rgb(122, 255, 226) 0%, rgb(236, 255, 239) 100%);
+    background: linear-gradient(0deg, #aef2ff 0%,
+            #e4f9fd 100%);
     margin: 0px auto 0px;
     padding-top: 50px;
     position: relative;
@@ -118,9 +118,7 @@ hr {
 
 .contact-me {}
 
-.btn {
-    padding-top: 0.96rem;
-}
+
 
 .footer-link {
     display: inline-block;
@@ -154,12 +152,13 @@ hr {
 
 .border1 {
     border-color: #ffcece;
-    border-style: solid;
+    border-style: none;
     border-width: .1rem;
-    border-radius: 100%;  
- 
- 
+    border-radius: 100%;
+
+
 }
+
 .gif-skill {
 
     display: block;
@@ -169,8 +168,8 @@ hr {
     float: left;
     margin: 0px 2rem 0rem 0px;
 
-    box-shadow: -6px -4px .5px -4px rgba(255, 195, 32, 0.906);
-  
+    box-shadow: -6px -4px 5px -4px rgba(255, 195, 32, 0.906);
+
 }
 
 .gif-skill2 {
@@ -181,14 +180,14 @@ hr {
     float: right;
     margin: 0px 0rem 0rem 2rem;
 
-    box-shadow: 6px -4px .5px -4px rgba(255, 195, 32, 0.906);
-   
+    box-shadow: 6px -4px 5px -4px rgba(255, 195, 32, 0.906);
+
 
 }
 
 .All-day-coding-h3,
 .creating-graphics-h3 {
-    color: rgb(53, 198, 177);
+
     margin-top: 0px;
 }
 
@@ -201,4 +200,38 @@ hr {
 
 .creating-graphics {
     margin-top: 0px;
+}
+
+.btn {
+    padding: 1.5rem;
+}
+
+.myButton {
+    
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+    background: linear-gradient(top, #ffffff, #ffffff);
+    padding: 9px 18px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 10%;
+    color: #ff6c6c;
+    font-size: 16px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.myButton:hover {
+    border-radius: 10%;
+    border-top-color: #ff5e63;
+    background: #ff5e63;
+    color: #ffffff;
+}
+
+.myButton:active {
+    border-radius: 10%;
+    border-top-color: #f513ea;
+    background: #f513ea;
 }
