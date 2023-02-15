@@ -1,4 +1,1 @@
-# Sneha-Portfolio ....99ok wtf
-pp
-0kkkkk
-99
+# Sneha-Portfolio
